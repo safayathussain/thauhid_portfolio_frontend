@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import MainLayout from "../../../layouts/MainLayout";
+import MainLayout from "../../layouts/MainLayout";
 export default function Home() {
   const router = useRouter();
   const category = router.query.category;
